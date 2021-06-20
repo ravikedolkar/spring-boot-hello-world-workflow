@@ -18,4 +18,12 @@ jobs:
     - name: Master Pipeline
       run: |
         echo "*****************************"
+        echo "Deploying to dev environment"
+        echo "sonar quality gate analysis"
+        echo "release-1.0"
+        echo "feature-1.0"
+        echo "qa bug"
+        echo "uat bug"
+        echo "prod bug"
+        echo "*****************************"
       shell: bash
