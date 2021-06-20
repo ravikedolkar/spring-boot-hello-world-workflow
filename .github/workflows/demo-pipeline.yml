@@ -4,11 +4,9 @@
 name: Demo Pipeline
 
 on:
-  create:
+  push:
     tags: 
       - 'demo-release-*'
-    branches-ignore:
-      - 'feature-*'
 
 jobs:
   build:
