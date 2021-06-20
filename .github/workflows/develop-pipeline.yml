@@ -4,9 +4,6 @@
 name: Develop Pipeline
 
 on:
-  create:
-    branches: 
-      - develop
   push:
     branches:
       - develop
