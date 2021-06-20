@@ -17,7 +17,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Feature Pipeline
       run: |
-        echo "***************************"               
         echo "sonar quality gate analysis"
-        echo "***************************"
       shell: bash
