@@ -4,7 +4,7 @@
 name: Feature Pipeline
 
 on:
-  create:
+  push:
     branches: 
       - 'feature-*'
 
