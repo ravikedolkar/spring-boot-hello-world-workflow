@@ -19,6 +19,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: UAT Pipeline
-      run: |
-        import os
-        print(os.environ['PATH'])
+      run: echo "Hello World"
