@@ -17,4 +17,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Master Pipeline
       run: |
-      echo "*****************************"
+        echo "*****************************"
+      shell: bash
