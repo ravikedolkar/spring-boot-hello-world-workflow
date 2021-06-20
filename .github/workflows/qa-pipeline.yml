@@ -1,12 +1,16 @@
 # This workflow will build a Java project with Maven
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
 
-name: Master Pipeline
+name: QA Pipeline
 
 on:
+  create:
+    branches: 
+      - staging
   push:
     branches:
-      - 'master'
+      - staging
+
 
 jobs:
   build:
@@ -15,9 +19,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Master Pipeline
+    - name: QA Pipeline
       run: echo "*****************************"
-      run: echo "Deploying to prod environment"
+      run: echo "Deploying to qa environment"
       run: echo "sonar quality gate analysis"
       run: echo "release-1.0"
       run: echo "feature-1.0"
