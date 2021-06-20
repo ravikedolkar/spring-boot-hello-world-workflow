@@ -19,6 +19,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Feature Pipeline
-      run: echo "***************************"               
-      run: echo "sonar quality gate analysis"
-      run: echo "***************************"
+      run: |
+      echo "***************************"               
+      echo "sonar quality gate analysis"
+      echo "***************************"

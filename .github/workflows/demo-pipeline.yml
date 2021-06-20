@@ -19,12 +19,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Demo Pipeline
-      run: echo "*****************************"
-      run: echo "Deploying to demo environment"
-      run: echo "sonar quality gate analysis"
-      run: echo "release-1.0"
-      run: echo "feature-1.0"
-      run: echo "qa bug"
-      run: echo "uat bug"
-      run: echo "prod bug"
-      run: echo "*****************************"
+      run: |
+      echo "*****************************"
+      echo "Deploying to demo environment"
+      echo "sonar quality gate analysis"
+      echo "release-1.0"
+      echo "feature-1.0"
+      echo "qa bug"
+      echo "uat bug"
+      echo "prod bug"
+      echo "*****************************"
